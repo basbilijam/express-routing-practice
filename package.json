@@ -1,0 +1,22 @@
+{
+  "name": "express-routing-practice",
+  "version": "1.0.0",
+  "description": "Fooling around with the good ol' express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basbilijam/express-routing-practice.git"
+  },
+  "author": "Bas Bilijam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basbilijam/express-routing-practice/issues"
+  },
+  "homepage": "https://github.com/basbilijam/express-routing-practice#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
