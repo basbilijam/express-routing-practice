@@ -10,10 +10,14 @@ const app = express()
 
 const routes = require (__dirname + '/routes/routes')
 
+const promise = require (__dirname + '/routes/promiseRouter')
+
 // Mount the routes of the routes module on the /potato path
 // in other words, run the sub-app called routes under '/potato'
 // we now have /potato/text1 and potato/text1
 app.use('/potato', routes)
+
+app.use('/users', promise)
 
 // serving a static index page
 app.use(express.static('views'))

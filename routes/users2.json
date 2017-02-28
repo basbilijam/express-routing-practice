@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Bas",
+		"age": "33",
+    "haircolor": "blond"
+	},
+  {
+		"name": "Klaas",
+		"age": "45",
+    "haircolor": "red"
+	},
+  {
+		"name": "Henk",
+		"age": "44",
+    "haircolor": "brown"
+	},
+  {
+		"name": "Jan",
+		"age": "89",
+    "haircolor": "blond"
+	},
+  {
+		"name": "Diederik",
+		"age": "19",
+    "haircolor": "red"
+	},
+  {
+		"name": "Kornelis",
+		"age": "20",
+    "haircolor": "brown"
+	},
+  {
+		"name": "Piet",
+		"age": "38",
+    "haircolor": "black"
+	}
+]
