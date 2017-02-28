@@ -16,7 +16,7 @@ const routes = require (__dirname + '/routes/routes')
 app.use('/potato', routes)
 
 // serving a static index page
-app.use(express.static('public'))
+app.use(express.static('views'))
 
 // make the server listen to port 3000
 app.listen(3000, f => {
