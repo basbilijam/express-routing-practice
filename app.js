@@ -10,9 +10,9 @@ const app = express()
 
 const routes = require (__dirname + '/routes/routes')
 
-// Mount the routes of the user module on the /user path
-// in other words, run the sub-app called user under '/user'
-// we now have /user/new and /user/delete
+// Mount the routes of the routes module on the /potato path
+// in other words, run the sub-app called routes under '/potato'
+// we now have /potato/text1 and potato/text1
 app.use('/potato', routes)
 
 // serving a static index page
